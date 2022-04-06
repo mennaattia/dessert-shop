@@ -1,0 +1,491 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Home starts here */
+.homePage .overlay {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .67);
+}
+.homePage {
+    width: 100%;
+    height: 105%;
+    background-image: url(Images/Cake\ Pieces);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.homePage .nav {
+    overflow: auto;
+    background-color: rgb(0, 0, 0, .5);
+}
+.homePage .nav img {
+    width: 4%;
+    float: left;
+    margin-left: 1%;
+}
+.homePage .nav ul {
+    list-style-type: none;
+    margin-right: 5%;
+}
+.homePage .nav ul li {
+    margin: 20px;
+    margin-left: 3%;
+    float: right;
+}
+.homePage .nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+.homePage .intro {
+    color: whitesmoke;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    width: 27%;
+    text-align: center;
+}
+.homePage .intro h1 {
+    font-size: 100px;
+}
+.homePage .intro img {
+    width: 200px;
+    margin-bottom: 5%;
+}
+.helloAra, .helloGer {
+    display: none;
+}
+#hello:hover .helloEng {
+    display: none;
+}
+#hello:hover .helloAra {
+    display: block;
+}
+/* Home ends here */
+/* Menu starts here */
+.menu {
+    width: 100%;
+    height: 130vh;
+    background-color: whitesmoke;
+    position: relative;
+}
+.menu .menuIntro {
+    width: 85%;
+    height: 23vh;
+    margin: auto;
+    color: white;
+    padding-left: 4%;
+    background: #a770ef;
+    background: linear-gradient(to right, #a770ef, #cf8bf3, #fdb99b);
+    background: linear-gradient(0deg, #ffbd27 0%, #feb000 100%);
+}
+.menu .menuIntro h1 {
+    font-size: 70px;
+}
+.menu .menuIntro .lead {
+    margin-top: 1%;
+}
+.menu .menuIntro #img1 {
+    width: 35%;
+    position: absolute;
+    top: -30%;
+    left: 60%;
+}
+.chocolateProducts {
+    position: absolute;
+    top: 23%;
+    left: 10%;
+}
+.cards {
+    background-color: whitesmoke;
+    width: 350px;
+    height: 328px;
+    margin-left: 3%;
+    margin-top: 2%;
+    float: left;
+    border-radius: 0 0 25px 25px;
+    box-shadow: 6px 3px 10px #ffbf19;
+}
+.cardImg {
+    width: 100%;
+    height: 75%;
+}
+.descriptions {
+    width: 95%;
+    padding-left: 4%;
+    padding-right: 3%;
+    height: 25%;
+    margin-top: 3%;
+}
+/* Menu ends here */
+/* Reviews start here */
+.reviews {
+    width: 100%;
+    height: 100vh;
+    background-image: url(Images/ChocolateAboutUs_FPL2_S&C.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.reviews .reviewsIntro {
+    width: 85%;
+    height: 10vh;
+    margin: auto;
+    color: white;
+    padding-left: 4%;
+    background: #a770ef;
+    background: linear-gradient(to right, #a770ef, #cf8bf3, #fdb99b);
+    background: linear-gradient(0deg, #ffbd27 0%, #feb000 100%);
+}
+.reviews .reviewsIntro h1 {
+    font-size: 70px;
+}
+.reviews .profileMain {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 3%;
+    margin-top: 1%;
+    text-align: center;
+}
+.reviews .profileMain .profiles {
+    width: 29%;
+    height: 280px;
+    background-color: white;
+    color: black;
+    box-shadow: 3px 1px 6px #ffbf20;
+    border-radius: 0 13px;
+    margin-top: 1%;
+}
+.reviews .profileMain .profiles .text {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: 7%;
+}
+.reviews .profileMain .profiles .text img {
+    width: 50%;
+}
+.reviews .profileMain .profiles .text h2 {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.reviews .profileMain .profiles .text p {
+    padding-left: 3%;
+    padding-right: 3%;
+    display: none;
+}
+.reviews .profileMain .profiles:hover {
+    height: 340px;
+}
+.reviews .profileMain .profiles:hover p {
+    display: block;
+}
+.reviews .overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .67);
+}
+/* Reviews end here */
+/* Footer starts here */
+.footer {
+    height: 50vh;
+    width: 100%;
+    background-color: whitesmoke;
+}
+.footer .more {
+    width: 90%;
+    height: 95%;
+    overflow: auto;
+    padding-top: 7%;
+}
+.footer .more div {
+    width: 20%;
+    background-color: white;
+    box-shadow: 3px 3px 6px #feb000;
+    float: left;
+    margin-left: 2%;
+    padding: 2%;
+    border-radius: 0 0 25px 25px;
+}
+.footer .more div ul li a {
+    text-decoration: none;
+    color: #feb000;
+}
+.footer .more div p a {
+    text-decoration: none;
+    color: #feb000;
+}
+.footer img {
+    margin-left: 73%;
+    margin-top: -30%;
+}
+/* Footer ends here */
+/* Responsive max-width: 950px starts here */
+@media(max-width: 1200px){
+    .menu {
+        width: 100%;
+        height: 190vh;
+        background-color: whitesmoke;
+        position: relative;
+    }
+    .menu .menuIntro #img1 {
+        width: 35%;
+        position: absolute;
+        top: -13.5%;
+        left: 60%;
+    }
+    .chocolateProducts {
+        position: absolute;
+        top: 17%;
+        left: 15.5%;
+    }
+    .reviews {
+        width: 100%;
+        height: 105vh;
+        background-image: url(Images/ChocolateAboutUs_FPL2_S&C.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    .reviews .profileMain {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-left: -2.5%;
+        margin-top: 1%;
+        text-align: center;
+    }
+    .footer img {
+        margin-left: 58%;
+        margin-top: -30%;
+    }
+}
+@media(max-width: 980px){
+    .menu {
+        width: 100%;
+        height: 190vh;
+        background-color: whitesmoke;
+        position: relative;
+    }
+    .menu .menuIntro #img1 {
+        width: 35%;
+        position: absolute;
+        top: -13.5%;
+        left: 60%;
+    }
+    .chocolateProducts {
+        position: absolute;
+        top: 17%;
+        left: 9%;
+    }
+    .reviews {
+        width: 100%;
+        height: 105vh;
+        background-image: url(Images/ChocolateAboutUs_FPL2_S&C.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    .reviews .profileMain {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-left: -2.5%;
+        margin-top: 1%;
+        text-align: center;
+    }
+    .footer img {
+        margin-left: 58%;
+        margin-top: -30%;
+    }
+}
+@media(max-width: 900px){
+    .menu {
+        width: 100%;
+        height: 190vh;
+        background-color: whitesmoke;
+        position: relative;
+    }
+    .menu .menuIntro #img1 {
+        width: 35%;
+        position: absolute;
+        top: -13.5%;
+        left: 60%;
+    }
+    .chocolateProducts {
+        position: absolute;
+        top: 17%;
+        left: 5%;
+    }
+    .reviews {
+        width: 100%;
+        height: 105vh;
+        background-image: url(Images/ChocolateAboutUs_FPL2_S&C.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    .reviews .profileMain {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-left: -2.5%;
+        margin-top: 1%;
+        text-align: center;
+    }
+    .footer img {
+        margin-left: 51%;
+        margin-top: -30%;
+    }
+}
+@media(max-width: 830px){
+    .menu {
+        width: 100%;
+        height: 320vh;
+        background-color: whitesmoke;
+        position: relative;
+    }
+    .menu .menuIntro #img1 {
+        width: 35%;
+        position: absolute;
+        top: -13.5%;
+        left: 60%;
+        display: none;
+    }
+    .chocolateProducts {
+        position: absolute;
+        top: 8%;
+        left: 22%;
+    }
+    .reviews {
+        width: 100%;
+        height: 280vh;
+        background-image: url(Images/ChocolateAboutUs_FPL2_S&C.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    .reviews .profileMain {
+        width: 100%;
+        height: 100%;
+        display: block;
+        margin-left: 7%;
+        margin-top: 1%;
+        text-align: center;
+    }
+    .reviews .profileMain .profiles {
+        width: 75%;
+        height: 280px;
+        background-color: white;
+        color: black;
+        box-shadow: 3px 1px 6px #ffbf20;
+        border-radius: 0 13px;
+        margin-top: 1%;
+    }
+    .footer {
+        height: 80vh;
+        width: 100%;
+        background-color: whitesmoke;
+    }
+    .footer img {
+        margin-left: 58%;
+        margin-top: -30%;
+        display: none;
+    }
+    .footer .more {
+        width: 100%;
+        height: 95%;
+        overflow: auto;
+        padding-top: 7%;
+    }
+    .footer .more div {
+        width: 87%;
+        background-color: white;
+        box-shadow: 3px 3px 6px #feb000;
+        margin-left: 2%;
+        margin-top: 7%;
+        padding: 4%;
+        border-radius: 0 0 25px 25px;
+    }
+}
+@media(max-width: 600px){
+    .menu {
+        width: 100%;
+        height: 320vh;
+        background-color: whitesmoke;
+        position: relative;
+    }
+    .menu .menuIntro #img1 {
+        width: 35%;
+        position: absolute;
+        top: -13.5%;
+        left: 60%;
+        display: none;
+    }
+    .chocolateProducts {
+        position: absolute;
+        top: 8%;
+        left: 13%;
+    }
+    .reviews {
+        width: 100%;
+        height: 280vh;
+        background-image: url(Images/ChocolateAboutUs_FPL2_S&C.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    .reviews .profileMain {
+        width: 100%;
+        height: 100%;
+        display: block;
+        margin-left: -2.5%;
+        margin-top: 1%;
+        text-align: center;
+    }
+    .reviews .profileMain .profiles {
+        width: 98%;
+        height: 280px;
+        background-color: white;
+        color: black;
+        box-shadow: 3px 1px 6px #ffbf20;
+        border-radius: 0 13px;
+        margin-top: 1%;
+    }
+    .footer {
+        height: 80vh;
+        width: 100%;
+        background-color: whitesmoke;
+    }
+    .footer img {
+        margin-left: 58%;
+        margin-top: -30%;
+        display: none;
+    }
+    .footer .more {
+        width: 100%;
+        height: 95%;
+        overflow: auto;
+        padding-top: 7%;
+    }
+    .footer .more div {
+        width: 87%;
+        background-color: white;
+        box-shadow: 3px 3px 6px #feb000;
+        margin-left: 2%;
+        margin-top: 7%;
+        padding: 4%;
+        border-radius: 0 0 25px 25px;
+    }
+}
